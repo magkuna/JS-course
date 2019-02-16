@@ -1,7 +1,20 @@
-var a = 6;
-var b = 5;
+var myArray = new Array();
+myArray[0] = 8;
+myArray[0] = "hello";
 
- if (isNaN(a)){
-     console.log ("o nie jest numer")''
- }
- 
+var myCar = new Object();
+myCar.maxSpeed = 50;
+myCar.driver = "Shaun";
+myCar.drive = function(){ console.log ('now driving"');};
+
+myCar.drive();
+
+varmyCar2 = {
+    maxSpeed: 70,
+    driver:"Net Ninja",
+    drive: function(speed,time){console.log(speed+time);}
+
+};
+
+console.log(myCar2.maxSpeed);
+myCar2.drive (50,3);
